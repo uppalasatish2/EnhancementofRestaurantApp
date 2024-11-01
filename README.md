@@ -1,6 +1,7 @@
 The goal of this enhancement project is to understand the existing <a href="https://learning.ccbp.in/question/d51bb3e2-c4f7-4e1a-bcdb-b0970b57be00" target="_blank_">Restaurant</a> code, and add the given functionalities within the existing <a href="https://learning.ccbp.in/question/d51bb3e2-c4f7-4e1a-bcdb-b0970b57be00" target="_blank_">Restaurant</a> code.
 
 Your existing <a href="https://learning.ccbp.in/question/d51bb3e2-c4f7-4e1a-bcdb-b0970b57be00" target="_blank_">Restaurant</a> app, which you have developed, allows users to view a list of dish items in different tabs of menu items. Users can also increase or decrease the quantity of a particular dish item.
+# Live: https://enhncrestaurant.ccbp.tech/login
 
 ### Enhancement Functionality
 
@@ -134,17 +135,3 @@ In the above command, replace this `{git repository URL}` with your actual Git U
 
 - You must clone the existing <a href="https://learning.ccbp.in/question/d51bb3e2-c4f7-4e1a-bcdb-b0970b57be00" target="_blank_">Restaurant App</a> repo, as test cases are added for both the existing Restaurant app and the new functionality.
 - These projects are introduced to help you prepare well for similar questions asked during interviews. </MultiLineNote>
-
-### Submission Form:
-
-<center>Click the below button and submit your git URL and published URL of the current coding assignment</center>
-<br>
-<a  href="https://forms.ccbp.in/restaurant-app-enhancement-project-submission-form" target="_blank_">
-  <center><button style="color: #fff; border: none; cursor: pointer; width: 218px; height: 34px; background-color: rgb(22, 101, 216); border-radius: 5.4px; box-shadow: rgb(0 0 0 / 36%) 0px 2px 4px 0px;font-family: Inter;font-size: 14px;color: rgb(255, 255, 255);font-weight: 500;letter-spacing: 0.5px;text-transform: uppercase;">
-    SUBMIT
-  </button>
-  </center>
-</a>
-
-<br/>
-<center>**Follow the clean code guidelines**</center>
