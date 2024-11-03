@@ -73,8 +73,8 @@ const Home = () => {
           onClick={onClickHandler}
         >
           <button
-            type="button"
-            className="mt-0 mb-0 ms-2 me-2 tab-category-button"
+            type='button'
+            className='mt-0 mb-0 ms-2 me-2 tab-category-button'
           >
             {eachCategory.menuCategory}
           </button>
@@ -88,7 +88,7 @@ const Home = () => {
     )
 
     return (
-      <ul className="m-0 d-flex flex-column dishes-list-container">
+      <ul className='m-0 d-flex flex-column dishes-list-container'>
         {categoryDishes.map(eachDish => (
           <DishItem
             key={eachDish.dishId}
@@ -102,17 +102,17 @@ const Home = () => {
   }
 
   const renderSpinner = () => (
-    <div className="spinner-container">
-      <div className="spinner-border" role="status" />
+    <div className='spinner-container'>
+      <div className='spinner-border' role='status' />
     </div>
   )
 
   return isLoading ? (
     renderSpinner()
   ) : (
-    <div className="home-background">
+    <div className='home-background'>
       <Header cartItems={cartList} />
-      <ul className="m-0 ps-0 d-flex tab-container">{renderTabMenuList()}</ul>
+      <ul className='m-0 ps-0 d-flex tab-container'>{renderTabMenuList()}</ul>
       {renderDishes()}
     </div>
   )
